@@ -1,0 +1,18 @@
+.cat-image{
+    height: 150px;
+    width: 240px;
+    /* margin-left: 40px; */
+    /* margin-bottom: 20px; */
+}
+.cat-div{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.card{
+margin-bottom: 60px;
+/* padding: 40px; */
+    margin-left: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+    z-index: 4 !important;
+}

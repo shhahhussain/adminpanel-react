@@ -1,0 +1,33 @@
+.cat-div{
+  margin-left: 20px;
+}
+.order-card{
+  background-color: rgb(79, 255, 79);
+  width: 300px;
+  height: 280px;
+  margin: 15px;
+  text-transform: capitalize;
+}
+
+.detail-order-btn{
+  width: 240px;
+}
+.rec-order-btn{
+  width: 115px;
+}
+.acc-order-btn{
+  width: 115px;
+  margin-left: 5px;
+}
+.rec-order-btn:hover{
+     background-color: red;
+     color: #fff;
+}
+.acc-order-btn:hover{
+  background-color: green;
+  color: #fff;
+}
+.detail-order-btn:hover{
+  background-color: goldenrod;
+  color: black;
+}

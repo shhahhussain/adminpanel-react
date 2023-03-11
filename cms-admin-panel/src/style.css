@@ -1,0 +1,138 @@
+.li{
+    display: block;
+    width: 260px;
+    font-size: 30px;
+    margin: 27px;
+}
+.nav-bar{
+float: left
+}
+.login-body{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.login-form{
+    border-radius: 40px;
+    padding: 50px;
+    border: gray 1px solid;
+    box-shadow: 5px 10px grey;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login{
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    width: 190px;
+    margin-top: 20px;
+    color: white;   
+    background-color: blue;
+}
+#cms{
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 470px;   
+}
+.formitem{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    margin-left: 50px;
+    width: 71%;
+}
+.header{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: rgb(223, 217, 217);
+}
+.header li{
+    display: inline;
+    margin-left: 60px;
+    font-size: 28px;
+}
+.heading{   
+    margin-left: 100px;
+    font-size: 60px;
+    display: inline;
+}
+#header-button{
+    float: right;
+    margin-right: 20px;
+    margin-top: -52px;
+}
+#header-button :hover{
+    background-color: blue;
+}
+#home{
+    font-size: 300px;
+}
+.nav-item{
+    color: black;
+}
+.m{
+    color: blue;
+}
+.item{
+    margin-left: 30px;
+}
+.ant-btn {
+    border-radius: 20px !important;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 992px) {
+    .log-in{margin-left: 0px;
+        width: 12px;
+        margin-top: 20px;
+    }
+        .heading{   
+            margin-left: 60px;
+            font-size: 60px;
+        }
+        #login{
+            margin-left: 55px;
+            width: 140px;
+            margin-top: 20px;
+        }
+        .login-form{
+            width: 45%;
+        }
+}
+@media only screen and (max-width: 768px) {
+    .log-in{margin-left: 0px;
+        width: 12px;
+        margin-top: 20px;
+    }
+        .heading{   
+            margin-left: 74px;
+        }
+        #login{
+            margin-left: 70px;
+            width: 140px;
+            margin-top: 20px;
+        }
+        .login-form{
+            width: 55%;
+        }
+}
+@media only screen and (max-width: 600px) {
+    .log-in{
+    width: 12px;
+    margin-top: 20px;
+}
+    .heading{   
+        margin-left: 120px;
+    }
+    #login{
+        margin-left: 120px;
+        width: 140px;
+    }
+    .login-form{
+        width: 85%;
+    }
+}

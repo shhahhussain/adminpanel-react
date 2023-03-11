@@ -1,0 +1,24 @@
+
+.data-row{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+    border:2px darkblue solid;
+}
+.data-body{
+    margin: auto;
+    padding: auto;
+}
+.data{
+    border-right: 1px solid darkblue;
+}
+.data-head{
+    font-size: 19px;
+    border-right: 1px solid black;    
+}
+tr:nth-child(even) {
+    background: #CCC
+}
+tr:nth-child(odd) {
+    background: rgb(239, 230, 230)
+}
